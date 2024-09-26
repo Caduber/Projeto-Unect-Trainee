@@ -1,0 +1,122 @@
+#navbar{
+    background-color: #57290B;
+    height: 100px;
+    font-size: 24px;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#navbar-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbarItem a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #b2784a;
+    font-family: "Cormorant Garamond";
+}
+
+#navbar-numero{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Cormorant Garamond";
+    padding-bottom: 5px;
+}
+
+#navbar-numero-icon{
+    margin-top: 10px;
+    font-size: 24px;
+    padding-right: 8px;
+    color: #b2784a;
+}
+
+#mobile-navbar{
+    display: none;
+    position: absolute;
+}
+
+#mobile-menu-icon{
+    display: none;
+    color: black;
+}
+
+#mobile-menu-extended{
+    margin-top: 100px;
+    display: none;
+    background-color: #f5f3ed;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+@media only screen and  (max-width: 800px) {
+
+    #navbar{
+        display: flex;
+        align-items: center;
+        position: absolute;
+    }
+
+    #navbar-list{
+        display: none;
+    }
+
+    #mobile-navbar{
+        display: inline-flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        width: 100%;
+        font-family: "Cormorant Garamond";
+        font-size: 24px;
+        color: white;
+    }
+
+    #mobile-navbar li i{
+        color: #B2784A;
+    }
+
+    #mobile-menu-extended ul{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+        align-items: center;
+        padding-bottom: 30px;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+    
+    #mobile-menu-extended ul li{
+        display: block;
+        width: 70%;
+        padding: 25px;
+        font-size: 35px;
+        font-weight: 600;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    #mobile-menu-extended ul li a{
+        font-family: "Poppins";
+        text-decoration: none;
+        color: black;
+    }
+    
+    #i-fecha{
+        display: none;  
+    }
+
+
+
+}
+

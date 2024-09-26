@@ -1,0 +1,141 @@
+#section-cardapio{
+    background-color: #80451F;
+    min-height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-cardapio-titulo{
+    font-family: "Cormorant Garamond";
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 120px;
+}
+
+#section-cardapio-titulo span{
+    font-size: 55px;
+    border-bottom: 4px solid #b2784a;
+}
+
+#section-cardapio-slider{
+    display: flex;
+}
+
+#section-cardapio-slides{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.item-slider{
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    width: 400px;
+}
+
+.item-slider img{
+    width: 400px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.item-slider p{
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.item-slider p span{
+    font-size: 16px;
+}
+
+#section-cardapio-next{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#section-cardapio-next i{
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+}
+
+#section-cardapio-prev{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#section-cardapio-prev i{
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+}
+
+#section-cardapio-next-mobile{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+#section-cardapio-next-mobile i{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+#section-cardapio-prev-mobile{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+#section-cardapio-prev-mobile i{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    #section-cardapio-titulo{
+        font-family: "Cormorant Garamond";
+        color: white;
+        text-align: center;
+        padding-top: 130px;
+        margin-bottom: 120px;
+    }
+
+    #slide2{
+        display: none;
+    }
+
+    #slide3{
+        display: none;
+    }
+
+    #section-cardapio-next {
+        display: none;
+    }
+    #section-cardapio-prev {
+        display: none;
+    }
+    #section-cardapio-next-mobile {
+        display: block;
+    }
+    #section-cardapio-prev-mobile {
+        display: inline-block
+    }
+
+}
+

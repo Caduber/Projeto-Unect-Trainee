@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    /* font-family: "Cormorant Garamond"; */
+    /* font-family: "Poppins"; */
+}
+
+header{
+    margin-top: 100px;
+    background-image: url(/src/imgs/bg\ header.png);
+    background-size: cover;
+    align-content: center;
+    justify-content: space-between;
+    font-family: Poppins;
+    height: 775px;
+    color: white;
+    max-height: 775px;
+}
+
+#header-text-container{
+    margin-bottom: 48px;
+    text-shadow: 3px 3px 15px black;
+}
+
+#header-title{
+    margin-left: 200px;
+    font-size: 48px;
+    margin-bottom: 24px;
+    max-width: 650px;
+}
+
+#header-subtitle{
+    margin-left: 200px;
+    font-size: 26px;
+    max-width: 690px;
+}
+
+header a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+#header-button{
+    margin-left:200px;
+    border: none;
+    background-color: #8F542E;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px; 
+    color: white;
+    padding: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#header-button-icon{
+    padding-left: 24px;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    header{
+        height: auto;
+        background-position: 95%;
+    }
+
+    #header-text-container{
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #header-title{  
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 30px;
+        font-weight: 600;
+        max-width: 90%;
+        margin-bottom: 0px;
+    }
+
+    #header-subtitle{
+        display: none;
+    }
+
+    #header-button{
+        margin-left:30px;
+        border: none;
+        background-color: #8F542E;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px; 
+        color: white;
+        padding: 10px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    #header-button-icon{
+        padding-left: 24px;
+        font-size: 24px;
+    }
+
+}
+

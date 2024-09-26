@@ -1,0 +1,177 @@
+#section-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F3ED;
+    font-family: Poppins;
+    height: 950px;
+    overflow: hidden;
+}
+
+#section-contato-title{
+    display: flex;
+    font-family: "Cormorant Garamond";
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-right: 700px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+#section-contato-title::after {
+        background-color: #FBC9A8;
+        height: 30px;
+        content: '';
+        left: -15px;
+        right: -15px;
+        bottom: -7px;
+        position: absolute;
+        z-index: -1;
+}
+
+#section-contato-form{
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
+
+#section-contato-form img{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+#contato-nome{
+    height: 45px;
+    width: 480px;
+    border: 1.5px;
+    border-radius: 5px;
+    border-color: #8F542E;
+    border-style: solid;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+#contato-email{
+    height: 45px;
+    width: 480px;
+    border: 1.5px;
+    border-radius: 5px;
+    border-color: #8F542E;
+    border-style: solid;
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+}
+
+#contato-mensagem{
+    height: 200px;
+    border: 1.5px;
+    border-radius: 5px;
+    border-color: #8F542E;
+    border-style: solid;
+    margin-top: 5px;
+
+}
+
+#section-contato-button{
+        margin-top: 40px;
+        border: none;
+        background-color: #8F542E;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 18px; 
+        color: white;
+        padding: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        width: 300px;
+}
+
+#section-contato-button:hover{
+    margin-top: 40px;
+    border: none;
+    background-color: #cca184;;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px; 
+    color: white;
+    padding: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+#section-contato-button i{
+    font-size: 24px;
+    padding-left: 50px ;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #57290B;
+    color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 200;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 750px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #section-contato-title{
+        display: flex;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-right: 0px;
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+    }
+
+    #section-contato-form img{
+        display: none;
+    }
+
+    #inputs{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    footer{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+}
+
