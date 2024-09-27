@@ -41,9 +41,9 @@ function avancaProximo(){
 
     if(controle == 2){
 
-        item1.setAttribute("src", "./src/imgs/slid4.png")
-        item2.setAttribute("src", "./src/imgs/slid1.png")
-        item3.setAttribute("src", "./src/imgs/slid2.png")
+        item1.setAttribute("src", "src/imgs/slid4.png")
+        item2.setAttribute("src", "src/imgs/slid1.png")
+        item3.setAttribute("src", "src/imgs/slid2.png")
 
         title1.innerHTML = "Sorvete de Café"
         title2.innerHTML = "Brigadeiro de capuccino"
@@ -56,9 +56,9 @@ function avancaProximo(){
 
     else if(controle == 3){
 
-        item1.setAttribute("src", "./src/imgs/slid3.png")
-        item2.setAttribute("src", "./src/imgs/slid4.png")
-        item3.setAttribute("src", "./src/imgs/slid1.png")
+        item1.setAttribute("src", "src/imgs/slid3.png")
+        item2.setAttribute("src", "src/imgs/slid4.png")
+        item3.setAttribute("src", "src/imgs/slid1.png")
 
         title1.innerHTML = "Bolo de chocolate"
         title2.innerHTML = "Sorvete de Café"
@@ -71,9 +71,9 @@ function avancaProximo(){
 
     else if(controle == 4){
 
-        item1.setAttribute("src", "./src/imgs/slid2.png")
-        item2.setAttribute("src", "./src/imgs/slid3.png")
-        item3.setAttribute("src", "./src/imgs/slid4.png")
+        item1.setAttribute("src", "src/imgs/slid2.png")
+        item2.setAttribute("src", "src/imgs/slid3.png")
+        item3.setAttribute("src", "src/imgs/slid4.png")
 
         title1.innerHTML = "Pão de Mel"
         title2.innerHTML = "Bolo de chocolate"
@@ -86,9 +86,9 @@ function avancaProximo(){
 
     else if(controle == 1){
 
-        item1.setAttribute("src", "./src/imgs/slid1.png")
-        item2.setAttribute("src", "./src/imgs/slid2.png")
-        item3.setAttribute("src", "./src/imgs/slid3.png")
+        item1.setAttribute("src", "src/imgs/slid1.png")
+        item2.setAttribute("src", "src/imgs/slid2.png")
+        item3.setAttribute("src", "src/imgs/slid3.png")
 
         title1.innerHTML = "Brigadeiro de capuccino"
         title2.innerHTML = "Pão de Mel"
@@ -128,9 +128,9 @@ function voltaAnterior(){
 
     if(controle == 3){
 
-        item1.setAttribute("src", "./src/imgs/slid2.png")
-        item2.setAttribute("src", "./src/imgs/slid3.png")
-        item3.setAttribute("src", "./src/imgs/slid4.png")
+        item1.setAttribute("src", "src/imgs/slid2.png")
+        item2.setAttribute("src", "src/imgs/slid3.png")
+        item3.setAttribute("src", "src/imgs/slid4.png")
 
         title1.innerHTML = "Pão de Mel"
         title2.innerHTML = "Bolo de chocolate"
@@ -143,9 +143,9 @@ function voltaAnterior(){
 
     else if(controle == 2){
 
-        item1.setAttribute("src", "./src/imgs/slid3.png")
-        item2.setAttribute("src", "./src/imgs/slid4.png")
-        item3.setAttribute("src", "./src/imgs/slid1.png")
+        item1.setAttribute("src", "src/imgs/slid3.png")
+        item2.setAttribute("src", "src/imgs/slid4.png")
+        item3.setAttribute("src", "src/imgs/slid1.png")
 
         title1.innerHTML = "Bolo de chocolate"
         title2.innerHTML = "Sorvete de Café"
@@ -158,9 +158,9 @@ function voltaAnterior(){
 
     else if(controle == 1){
 
-        item1.setAttribute("src", "./src/imgs/slid4.png")
-        item2.setAttribute("src", "./src/imgs/slid1.png")
-        item3.setAttribute("src", "./src/imgs/slid2.png")
+        item1.setAttribute("src", "src/imgs/slid4.png")
+        item2.setAttribute("src", "src/imgs/slid1.png")
+        item3.setAttribute("src", "src/imgs/slid2.png")
 
         title1.innerHTML = "Sorvete de Café"
         title2.innerHTML = "Brigadeiro de capuccino"
@@ -173,9 +173,9 @@ function voltaAnterior(){
 
     else if(controle == 4){
 
-        item1.setAttribute("src", "./src/imgs/slid1.png")
-        item2.setAttribute("src", "./src/imgs/slid2.png")
-        item3.setAttribute("src", "./src/imgs/slid3.png")
+        item1.setAttribute("src", "src/imgs/slid1.png")
+        item2.setAttribute("src", "src/imgs/slid2.png")
+        item3.setAttribute("src", "src/imgs/slid3.png")
 
         title1.innerHTML = "Brigadeiro de capuccino"
         title2.innerHTML = "Pão de Mel"

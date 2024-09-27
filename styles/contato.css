@@ -169,6 +169,40 @@ footer{
         padding-bottom: 30px;
     }
 
+    #contato-nome{
+        height: 45px;
+        width: 300px;
+        border: 1.5px;
+        border-radius: 5px;
+        border-color: #8F542E;
+        border-style: solid;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    
+    #contato-email{
+        height: 45px;
+        width: 300px;
+        border: 1.5px;
+        border-radius: 5px;
+        border-color: #8F542E;
+        border-style: solid;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    
+    }
+    
+    #contato-mensagem{
+        height: 200px;
+        width: 300px;
+        border: 1.5px;
+        border-radius: 5px;
+        border-color: #8F542E;
+        border-style: solid;
+        margin-top: 5px;
+    
+    }
+
     #mobile-sociais{
         background-color: #F5F3ED;
         font-family: "Poppins";
@@ -209,3 +243,256 @@ footer{
 
 }
 
+@media screen and (max-width: 600px) {
+    
+
+    #section-contato-title{
+        display: flex;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-right: 0px;
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+    }
+
+    #section-contato-form img{
+        display: none;
+    }
+
+    #inputs{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #contato-nome{
+        height: 45px;
+        width: 300px;
+        border: 1.5px;
+        border-radius: 5px;
+        border-color: #8F542E;
+        border-style: solid;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    
+    #contato-email{
+        height: 45px;
+        width: 300px;
+        border: 1.5px;
+        border-radius: 5px;
+        border-color: #8F542E;
+        border-style: solid;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    
+    }
+    
+    #contato-mensagem{
+        height: 200px;
+        width: 300px;
+        border: 1.5px;
+        border-radius: 5px;
+        border-color: #8F542E;
+        border-style: solid;
+        margin-top: 5px;
+    
+    }
+
+    #mobile-sociais{
+        background-color: #F5F3ED;
+        font-family: "Poppins";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile-sociais h1{
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    #mobile-sociais div{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        gap: 50px;
+        margin-bottom: 25px;    
+    }
+
+    #mobile-sociais div img{
+        width: 60px;
+        height: 60px;
+    }
+
+    footer{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+
+    #section-contato-title{
+        display: flex;
+        font-family: "Cormorant Garamond";
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-right: 0px;
+        margin-left: 50px;
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+    }
+
+    #section-contato-title::after {
+        background-color: #FBC9A8;
+        height: 20px;
+        content: '';
+        /* left: -15px;
+        right: 135px; */
+        width: 220px;
+        bottom:0px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #section-contato-form img{
+        display: none;
+    }
+
+    #inputs{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #contato-nome{
+        height: 45px;
+        width: 250px;
+        border: 1.5px;
+        border-radius: 5px;
+        border-color: #8F542E;
+        border-style: solid;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    #contato-email{
+        height: 45px;
+        width: 250px;
+        border: 1.5px;
+        border-radius: 5px;
+        border-color: #8F542E;
+        border-style: solid;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    
+    }
+    
+    #contato-mensagem{
+        height: 200px;
+        width: 250px;
+        border: 1.5px;
+        border-radius: 5px;
+        border-color: #8F542E;
+        border-style: solid;
+        margin-top: 5px;
+    
+    }
+
+    #mobile-sociais{
+        background-color: #F5F3ED;
+        font-family: "Poppins";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-contato-button{
+        margin-top: 40px;
+        border: none;
+        background-color: #8F542E;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 18px; 
+        color: white;
+        padding: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        width: 250px;
+}
+
+    #section-contato-button:hover{
+        margin-top: 40px;
+        border: none;
+        background-color: #8F542E;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 18px; 
+        color: white;
+        padding: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        width: 250px;
+    }
+
+    #mobile-sociais{
+        background-color: #F5F3ED;
+        font-family: "Poppins";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    #mobile-sociais h1{
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    #mobile-sociais div{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        gap: 50px;
+        margin-bottom: 25px;    
+    }
+
+    #mobile-sociais div img{
+        width: 60px;
+        height: 60px;
+    }
+
+    footer{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+}
