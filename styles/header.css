@@ -10,7 +10,7 @@
 
 header{
     margin-top: 100px;
-    background-image: url("/src/imgs/bg header.png");
+    background-image: url("../src/imgs/bg header.png");
     background-size: cover;
     align-content: center;
     justify-content: space-between;
