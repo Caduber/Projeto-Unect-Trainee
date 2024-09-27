@@ -141,7 +141,12 @@ footer{
     gap: 750px;
 }
 
+#mobile-sociais{
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
+    
 
     #section-contato-title{
         display: flex;
@@ -162,6 +167,35 @@ footer{
     #inputs{
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    #mobile-sociais{
+        background-color: #F5F3ED;
+        font-family: "Poppins";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile-sociais h1{
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    #mobile-sociais div{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        gap: 50px;
+        margin-bottom: 25px;    
+    }
+
+    #mobile-sociais div img{
+        width: 60px;
+        height: 60px;
     }
 
     footer{

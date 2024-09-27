@@ -108,12 +108,26 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    #secction-cardapio{
+        height: 950px;
+    }
+
     #section-cardapio-titulo{
         font-family: "Cormorant Garamond";
         color: white;
         text-align: center;
         padding-top: 130px;
         margin-bottom: 120px;
+    }
+
+    #slide1{
+        width: 280px;
+    }
+
+    #slide1 img{
+        width: 280px;
+        height: 290px;
     }
 
     #slide2{
@@ -135,6 +149,10 @@
     }
     #section-cardapio-prev-mobile {
         display: inline-block
+    }
+
+    #section-cardapio-slides{
+        gap: 10px;
     }
 
 }

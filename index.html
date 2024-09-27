@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/navigation.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="/styles/sobre.css">
-    <link rel="stylesheet" href="/styles/cardapio.css">
-    <link rel="stylesheet" href="/styles/contato.css">
+    <link rel="stylesheet" href="./styles/navigation.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/sobre.css">
+    <link rel="stylesheet" href="./styles/cardapio.css">
+    <link rel="stylesheet" href="./styles/contato.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Palavras Cafeinadas</title>
 </head>
 <body>
     <nav id="navbar">
@@ -21,7 +21,7 @@
                 <a href="#transition">Cafeteria</a>
             </li>
             <li class="navbarItem">
-                <img src="/src/imgs/Logo.svg" alt="Logo">
+                <img src="./src/imgs/Logo.svg" alt="Logo">
             </li>
             <li class="navbarItem">
                 <a href="#section-contato">Contato</a>
@@ -32,7 +32,7 @@
         </ul>
         <ul id="mobile-navbar">
             <li>
-                <img src="/src/imgs/LogoSemTexto.png" alt="Logo">
+                <img src="./src/imgs/LogoSemTexto.png" alt="Logo">
             </li>
             <li>
                 Palavras Cafeinadas
@@ -50,13 +50,13 @@
                 <a href="#">Home</a>
             </li>
             <li>
-                <a href="#">Sobre Nós</a>
+                <a href="#section-sobre">Sobre Nós</a>
             </li>
             <li>
-                <a href="#">Cafeteria</a>
+                <a href="#section-cardapio">Cafeteria</a>
             </li>
             <li>
-                <a href="#">Contato</a>
+                <a href="#section-contato">Contato</a>
             </li>
         </ul>
     </div>
@@ -86,12 +86,12 @@
                 </a>
         </div>
         <div id="section-sobre-img">
-            <img src="/src/imgs/Mask group.png" alt="Imagem Ilustrativa de Torta">
+            <img src="./src/imgs/Mask group.png" alt="Imagem Ilustrativa de Torta">
         </div>
     </section>
 
-    <img id="transition" src="/src/imgs/cafe final.png" alt="Transicao">
-    <img id="transition-mobile" src="/src/imgs/cafe mobile.png" alt="Transicao">
+    <img id="transition" src="./src/imgs/cafe final.png" alt="Transicao">
+    <img id="transition-mobile" src="./src/imgs/cafe mobile.png" alt="Transicao">
 
     <section id="section-cardapio">
         <h1 id="section-cardapio-titulo"><span>CAFETERIA</span></h1>
@@ -104,15 +104,15 @@
                     <i class="fa-solid fa-chevron-left" onclick="voltaAntMobile()"></i>
                 </button>
                 <div id="slide1" class="item-slider">
-                    <img id="item1" src="/src/imgs/slid1.png" alt="Imagem do Cardápio">
+                    <img id="item1" src="./src/imgs/slid1.png" alt="Imagem do Cardápio">
                     <p><strong id="title1">Brigadeiro de Capuccino</strong><br> <span id="leg1">O brigadeiro de cappuccino é uma das guloseimas que enfeitam o balcão da doceria...</span></p>
                 </div>
                 <div id="slide2" class="item-slider">
-                    <img id="item2" src="/src/imgs/slid2.png" alt="Imagem do Cardápio">
+                    <img id="item2" src="./src/imgs/slid2.png" alt="Imagem do Cardápio">
                     <p><strong id="title2">Pão de Mel</strong><br> <span id="leg2">O pão de mel é um dos doces mais tradicionais que temos, ele é recheado com doce de leite...</span></p>
                 </div>
                 <div id="slide3" class="item-slider">
-                    <img id="item3" src="/src/imgs/slid3.png" alt="Imagem do Cardápio">
+                    <img id="item3" src="./src/imgs/slid3.png" alt="Imagem do Cardápio">
                     <p><strong id="title3">Bolo de Chocolate</strong><br> <span id="leg3">O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteira, ele possui um recheio com...</span></p>
                 </div>
                 <button id="section-cardapio-next" onclick="avancaProximo()">
@@ -127,9 +127,8 @@
 
         <section id="section-contato">
             <h3 id="section-contato-title">ENTRE EM CONTATO</h3>
-            <div id="section-contato-bloco"></div>
             <div id="section-contato-form">
-                <img src="/src/imgs/Contatos.png" alt="Imagem formulário">
+                <img src="./src/imgs/Contatos.png" alt="Imagem formulário">
                 <div id="inputs">
                         <label for="nome">Nome</label>
                         <input type="text" id="contato-nome">     
@@ -144,6 +143,15 @@
             </div>
         </section>
 
+        <div id="mobile-sociais">
+            <h1>NOS ENCONTRE AQUI:</h1>
+            <div>
+                <img src="./src/imgs/Vector-2.png" alt="ImagemSocial">
+                <img src="./src/imgs/Vector-1.png" alt="ImagemSocial">
+                <img src="./src/imgs/Vector.png" alt="ImagemSocial">
+            </div>
+        </div>
+
         <footer>
             <span>
                 Desenvolvido por Unect Jr
@@ -152,7 +160,7 @@
                 Todos os direitos reservados ©
             </span>
         </footer>
-        <script src="/scripts/cafeteria.js"></script>
-        <script src="/scripts/mobile.js"></script>
+        <script src="./scripts/cafeteria.js"></script>
+        <script src="./scripts/mobile.js"></script>
 </body>
 </html>
