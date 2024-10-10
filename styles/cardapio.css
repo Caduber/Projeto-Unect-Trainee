@@ -207,3 +207,53 @@
 
 }
 
+@media screen and (max-width: 300px) {
+
+    #secction-cardapio{
+        height: 950px;
+    }
+
+    #section-cardapio-titulo{
+        font-family: "Cormorant Garamond";
+        color: white;
+        text-align: center;
+        padding-top: 70px;
+        margin-bottom: 80px;
+    }
+
+    #slide1{
+        width: 180px;
+    }
+
+    #slide1 img{
+        width: 180px;
+        height: 180px;
+    }
+
+    #slide2{
+        display: none;
+    }
+
+    #slide3{
+        display: none;
+    }
+
+    #section-cardapio-next {
+        display: none;
+    }
+    #section-cardapio-prev {
+        display: none;
+    }
+    #section-cardapio-next-mobile {
+        display: block;
+    }
+    #section-cardapio-prev-mobile {
+        display: inline-block
+    }
+
+    #section-cardapio-slides{
+        gap: 5px;
+    }
+
+}
+
